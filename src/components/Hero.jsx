@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Mail, Copy, Check } from 'lucide-react'
 
 export default function Hero() {
-    const email = "contact@proservice.com"
+    const email = "support@serviceproviderhq.com"
     const [copied, setCopied] = useState(false)
 
     const handleCopy = () => {
